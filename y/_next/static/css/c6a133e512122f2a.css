@@ -1,3 +1,755 @@
-.ReadingPreference_container__bK6Hm{display:flex;align-items:center;justify-content:center;width:100%}.ReadingPreference_spinner__DAbUN{-webkit-margin-end:var(--spacing-xsmall);margin-inline-end:var(--spacing-xsmall)}.ReadingPreference_preferenceTextContainer___J7Dx{-webkit-padding-start:var(--spacing-xsmall);padding-inline-start:var(--spacing-xsmall)}.ReadingPreference_iconContainer__Jk5Rm>svg{width:15px;display:block;margin:auto}@media only screen and (max-width:768px){.ReadingPreference_iconContainer__Jk5Rm>svg{-webkit-margin-end:0;margin-inline-end:0}}.ReadingPreferenceSwitcher_container__0Dzn6{max-width:calc(20*var(--spacing-large));-webkit-margin-start:auto;margin-inline-start:auto;-webkit-margin-end:auto;margin-inline-end:auto;-webkit-padding-before:0;padding-block-start:0;-webkit-padding-after:0;padding-block-end:0;-webkit-padding-start:var(--spacing-small);padding-inline-start:var(--spacing-small);-webkit-padding-end:var(--spacing-small);padding-inline-end:var(--spacing-small)}.ReadingPreferenceSwitcher_surahHeaderContainer__L6XJx{-webkit-margin-before:var(--spacing-small);margin-block-start:var(--spacing-small);-webkit-margin-after:var(--spacing-xxsmall);margin-block-end:var(--spacing-xxsmall)}.ReadingPreferenceSwitcher_contextMenuContainer__RALtU{max-width:calc(10*var(--spacing-large))}.ContextMenu_container__M7_N3{background:var(--color-background-default);background:var(--color-background-elevated);box-shadow:var(--shadow-small);color:var(--color-text-default);text-align:center;position:fixed;z-index:var(--z-index-sticky);transition:transform var(--transition-regular);width:100%;inset-block-start:-1px;min-height:var(--spacing-medium);will-change:transform}.ContextMenu_container__M7_N3:after{display:block;content:"";width:var(--progress);transition:var(--transition-fast);transition-timing-function:linear;height:var(--spacing-micro);background:var(--color-success-deep);position:absolute;inset-block-end:calc(-1*var(--spacing-micro))}.ContextMenu_hide__l1kVd{display:none;height:0;visibility:hidden}.ContextMenu_visibleContainer__KnWDa{transform:translate3d(0,var(--navbar-container-height),0)}.ContextMenu_withVisibleBanner__0U0w_{transform:translate3d(0,var(--navbar-container-height) 0)}.ContextMenu_expandedContainer__W_YZP{min-height:var(--spacing-mega)}@media only screen and (min-width:768px){.ContextMenu_withVisibleSideBar__8iHQu{-webkit-margin-end:26rem;margin-inline-end:26rem;width:calc(100% - 26rem)}}.ContextMenu_chapter__VKK2w{font-size:var(--font-size-large);margin-inline:var(--spacing-large)}.ContextMenu_bold__jqCU4{font-weight:var(--font-weight-bold)}.ContextMenu_sectionsContainer__x91pr{width:100%;-webkit-padding-before:var(--spacing-micro);padding-block-start:var(--spacing-micro);-webkit-padding-after:var(--spacing-micro);padding-block-end:var(--spacing-micro);display:flex;align-items:center;box-sizing:border-box;padding-inline:calc(1.3*var(--spacing-large))}@media only screen and (min-width:768px){.ContextMenu_sectionsContainer__x91pr{padding-inline:calc(1.2*var(--spacing-mega))}}.ContextMenu_halfSection__vu5Iq{width:50%}.ContextMenu_section__hi_wD{width:33.3333333333%}@media only screen and (max-width:768px){.ContextMenu_section__hi_wD{width:50%}}.ContextMenu_alignStart__D4EZD{text-align:start}.ContextMenu_alignEnd__4YQyB{text-align:end}.ContextMenu_row__3Hf3R{display:flex;justify-content:space-between;flex-direction:column;width:100%}.ContextMenu_primaryInfo__QL1fr{font-weight:var(--font-weight-semibold)}.ContextMenu_secondaryInfo__FEnWx{font-weight:lighter}.ContextMenu_surahName__9ovH0{display:none;align-items:center;cursor:pointer}.ContextMenu_chevronIconContainer__Bfc57{display:inline-flex;align-items:center;justify-content:center;-webkit-margin-start:var(--spacing-xxsmall);margin-inline-start:var(--spacing-xxsmall);box-sizing:border-box}.ContextMenu_rotate180__ar3NZ{transition:var(--transition-fast);transform:rotate(180deg)}.ContextMenu_rotateAuto__xUm9n{transition:var(--transition-fast);transform:rotate(0)}@media only screen and (min-width:768px){.ContextMenu_rotateAuto__xUm9n{transition:var(--transition-fast);transform:rotate(180deg)}}.ContextMenu_disabledOnMobile__Pjaj9{pointer-events:none}@media only screen and (min-width:768px){.ContextMenu_disabledOnMobile__Pjaj9{pointer-events:inherit}}.ObserverWindow_container__yPD6c{position:fixed;inset-block:131.6px 68vh;z-index:var(--z-index-sticky);width:100%;border:1px solid var(--color-background-inverse)}.ObserverWindow_readingMode__fiRzr{inset-block:115.6px 70vh}.Notes_container__P4U6p{height:100%;position:fixed;inset-block-start:0;inset-inline-end:0;background-color:#2e75ff;overflow-x:hidden;-webkit-padding-before:var(--navbar-container-height);padding-block-start:var(--navbar-container-height);z-index:var(--z-index-default);transition:var(--transition-regular);width:0}.Notes_visibleContainer__8hC3J{width:calc(100% - 2*var(--spacing-mega))}@media only screen and (min-width:768px){.Notes_visibleContainer__8hC3J{width:26rem}}.QueryParamMessage_container__qZWgn{position:relative;padding:var(--spacing-medium);margin-inline:var(--spacing-xxsmall);background:var(--color-success-faded);border-radius:var(--border-radius-default);border:1px solid var(--color-success-faint);text-align:start}[dir=rtl] .QueryParamMessage_container__qZWgn{direction:rtl}.QueryParamMessage_link__apDAP{cursor:pointer;color:var(--color-text-link)}.QueryParamMessage_link__apDAP:hover{text-decoration:underline}.VerseLink_verseLink__m_uNh{opacity:var(--opacity-50);text-align:center}.ChapterIconContainer_iconContainer__5umYV span{line-height:normal;font-family:surahnames;font-size:var(--font-size-large)}.ChapterIconContainer_iconContainerSmall__gvmyy span{font-size:var(--font-size-xsmall)}.ChapterIconContainer_iconContainerLarge__z49r_ span{font-size:var(--font-size-jumbo)}.ChapterIconContainer_iconContainerMega__rKWtt span{font-size:calc(1.5*var(--font-size-jumbo))}.PlayButton_container__CTTxf{display:flex;justify-content:center}.ChapterHeader_container__UANyL{display:none;justify-content:space-between;-webkit-margin-before:var(--spacing-xxsmall);margin-block-start:var(--spacing-xxsmall);-webkit-margin-after:var(--spacing-xxsmall);margin-block-end:var(--spacing-xxsmall);-webkit-margin-start:0;margin-inline-start:0;-webkit-margin-end:0;margin-inline-end:0;-webkit-padding-before:var(--spacing-xxsmall);padding-block-start:var(--spacing-xxsmall);-webkit-padding-after:var(--spacing-xxsmall);padding-block-end:var(--spacing-xxsmall);-webkit-padding-start:0;padding-inline-start:0;-webkit-padding-end:0;padding-inline-end:0;position:relative;direction:ltr}.ChapterHeader_left__9GlxX,.ChapterHeader_right__IcBU9{display:flex;flex-direction:column;text-align:start;justify-content:space-between}.ChapterHeader_chapterId__Z_Pey{text-align:end;font-size:var(--font-size-large);font-weight:var(--font-weight-bold);color:var(--color-text-faded);z-index:var(--z-index-default)}.ChapterHeader_bismillahContainer__EXMlw{display:flex;justify-content:center;-webkit-margin-before:var(--spacing-xxsmall);margin-block-start:var(--spacing-xxsmall);-webkit-margin-after:calc(1.5*var(--spacing-mega));margin-block-end:calc(1.5*var(--spacing-mega))}.ChapterHeader_translatedName__2sqjR{font-weight:var(--font-weight-bold);color:var(--color-text-faded);font-size:var(--font-size-xsmall)}.ChapterHeader_arabicSurahNameContainer__xn14U,.ChapterHeader_translatedName__2sqjR{-webkit-margin-after:var(--spacing-xxsmall);margin-block-end:var(--spacing-xxsmall);z-index:var(--z-index-default)}.ChapterHeader_arabicSurahNameContainer__xn14U{box-sizing:border-box;display:flex;justify-content:flex-end;-webkit-padding-before:var(--spacing-xsmall);padding-block-start:var(--spacing-xsmall)}.ChapterHeader_transliteratedName__V9dup{font-weight:var(--font-weight-bold);font-size:var(--font-size-large);-webkit-margin-after:var(--spacing-xxsmall);margin-block-end:var(--spacing-xxsmall);z-index:var(--z-index-default)}.ChapterHeader_actionContainer__tbdf_{position:relative;z-index:var(--z-index-default)}.ChapterHeader_translation__ERRFK{max-width:calc(5*var(--spacing-mega))}@media only screen and (min-width:375px){.ChapterHeader_translation__ERRFK{max-width:calc(7*var(--spacing-mega))}}@media only screen and (min-width:768px){.ChapterHeader_translation__ERRFK{max-width:calc(11*var(--spacing-mega))}}.ChapterHeader_translationBy__DDZAE{color:var(--color-text-faded)}.ChapterHeader_changeTranslation__UlDJ5{color:var(--color-success-medium);cursor:pointer}.ChapterHeader_changeTranslation__UlDJ5:hover{text-decoration:underline}.ChapterHeader_header__kguEh{position:relative;display:flex;justify-content:center;align-items:center;-webkit-margin-before:var(--spacing-large);margin-block-start:var(--spacing-large);min-height:calc(3.75*var(--spacing-medium))}.ChapterHeader_chapterIconContainer__CJN7h{margin-right:.5em}.TranslationView_container__M0fhJ{max-width:100%;-webkit-margin-start:auto;margin-inline-start:auto;-webkit-margin-end:auto;margin-inline-end:auto}@media only screen and (min-width:768px){.TranslationView_container__M0fhJ{max-width:80%}}.TranslationView_wrapper__C8vfW{min-height:100vh}.SidebarSelectionSkeleton_skeletonContainer__Pl7tL{display:flex;flex-direction:column}.SidebarSelectionSkeleton_row__AF4Qi{width:auto;height:calc(2*var(--spacing-large));-webkit-margin-after:var(--spacing-large);margin-block-end:var(--spacing-large)}.RevelationOrderNavigationNotice_sideDrawerViewContainer__R0aka{-webkit-margin-after:var(--spacing-medium);margin-block-end:var(--spacing-medium);padding:var(--spacing-small);border:1px solid var(--color-borders-hairline);border-radius:var(--border-radius-rounded)}.RevelationOrderNavigationNotice_endOfScrollingViewContainer__moJQq{text-align:center;max-width:100%;margin:var(--spacing-medium) auto}@media only screen and (min-width:768px){.RevelationOrderNavigationNotice_endOfScrollingViewContainer__moJQq{max-width:80%}}.RevelationOrderNavigationNotice_link__NY714{color:var(--color-text-link);text-decoration:underline}.RevelationOrderNavigationNotice_link__NY714:hover{cursor:pointer}.KeyboardInput_container__Zwe4F{direction:ltr;color:var(--color-text-default);border:1px solid var(--color-borders-hairline);display:inline-block;text-align:center;min-width:calc(.5*var(--spacing-medium));border-radius:var(--border-radius-default);font-size:14px;line-height:28px;padding:0 8px}.KeyboardInput_container__Zwe4F>span+span{-webkit-margin-start:8px;margin-inline-start:8px}@media only screen and (max-width:768px){.KeyboardInput_container__Zwe4F{display:none}}.KeyboardInput_invertedColors__2s3F3{color:var(--color-text-inverse)}.SidebarNavigation_container__IooCv{--sidebar-size:calc(100% - (2 * var(--spacing-mega)));height:100vh;max-height:100vh;position:fixed;inset-block-start:0;inset-inline-start:0;-webkit-padding-before:calc(1.5*var(--spacing-mega));padding-block-start:calc(1.5*var(--spacing-mega));background-color:var(--color-background-elevated);overflow-x:hidden;z-index:var(--z-index-default);box-sizing:border-box;-webkit-border-end:1px solid var(--color-borders-hairline);border-inline-end:1px solid var(--color-borders-hairline);width:var(--sidebar-size);padding-inline:var(--spacing-large);transition:transform var(--transition-regular);display:flex;flex-direction:column;overflow-y:hidden;transform:translateX(-100%)}@media only screen and (min-width:768px){.SidebarNavigation_container__IooCv{--sidebar-size:calc(10 * var(--spacing-mega))}}[dir=rtl] .SidebarNavigation_container__IooCv{transform:translateX(100%)}.SidebarNavigation_visibleContainer__Y6E1c,[dir=rtl] .SidebarNavigation_visibleContainer__Y6E1c{transform:translateX(0)}@media only screen and (min-width:768px){.SidebarNavigation_containerAuto__WRE2m,[dir=rtl] .SidebarNavigation_containerAuto__WRE2m{transform:translateX(0)}}.SidebarNavigation_header__fqOtn{display:flex;align-items:center}.SidebarNavigation_switchContainer__DU_JH{flex:1 1;-webkit-margin-end:var(--spacing-xxsmall);margin-inline-end:var(--spacing-xxsmall)}.SidebarNavigation_contentContainer__FeDCs{-webkit-margin-before:var(--spacing-medium);margin-block-start:var(--spacing-medium);flex:1 1;display:flex;flex-direction:column;-webkit-padding-after:var(--spacing-medium);padding-block-end:var(--spacing-medium)}.
-SidebarNavigation_container__IooCv SidebarNavigation_visibleContainer__Y6E1c SidebarNavigation_spaceOnTop__VHaMe{visibility: hidden; opacity: 0; position: absolute; bottom: 100000000;}
-SidebarNavigation_surahBodyContainer__bZs9R{display:flex;flex:1 1}.SidebarNavigation_surahBodyContainer__bZs9R>.SidebarNavigation_verseListContainer__tE5ut{-webkit-margin-start:var(--spacing-xsmall);margin-inline-start:var(--spacing-xsmall)}.SidebarNavigation_scrollableSectionContainer__DEA47{display:flex;flex-direction:column;flex:1 1;position:relative}.SidebarNavigation_listContainer__Z4xaB{flex:1 1;position:relative}.SidebarNavigation_list__5GJEm{position:absolute;inset:0;overflow-x:hidden;overflow-y:auto;-webkit-padding-after:calc(2*var(--spacing-mega));padding-block-end:calc(2*var(--spacing-mega))}.SidebarNavigation_listItem__geBUW{padding:var(--spacing-xsmall);border-radius:var(--border-radius-rounded)}[dir=rtl] .SidebarNavigation_listItem__geBUW{direction:rtl}.SidebarNavigation_listItem__geBUW:hover,.SidebarNavigation_selectedItem__swGQH{background-color:var(--color-background-alternative-faded)}.SidebarNavigation_selectedItem__swGQH{font-weight:var(--font-weight-bold)}.SidebarNavigation_surahListContainer__IYouq{flex:2 1;display:flex;flex-direction:column}.SidebarNavigation_verseListContainer__tE5ut{-webkit-padding-start:var(--spacing-xsmall);padding-inline-start:var(--spacing-xsmall);-webkit-border-start:1px solid var(--color-borders-hairline);border-inline-start:1px solid var(--color-borders-hairline);flex:1 1;display:flex;flex-direction:column}.SidebarNavigation_searchInput__vhw5Z{border:none;box-sizing:border-box;padding:var(--spacing-xsmall);border-radius:var(--border-radius-rounded);-webkit-margin-after:var(--spacing-medium);margin-block-end:var(--spacing-medium);width:100%;background-color:var(--color-background-alternative-faded);color:var(--color-text-default)}.SidebarNavigation_searchInput__vhw5Z::-moz-placeholder{color:var(--color-text-default);opacity:var(--opacity-50)}.SidebarNavigation_searchInput__vhw5Z:-ms-input-placeholder{color:var(--color-text-default);opacity:var(--opacity-50)}.SidebarNavigation_searchInput__vhw5Z::placeholder{color:var(--color-text-default);opacity:var(--opacity-50)}.SidebarNavigation_spaceOnTop__VHaMe{-webkit-padding-before:calc(3.5*var(--spacing-mega));padding-block-start:calc(3.5*var(--spacing-mega))}.SidebarNavigation_chapterNumber__39NUY{display:inline-block;width:calc(2*var(--spacing-medium))}.SidebarNavigation_tip__g4nzj{margin-block:var(--spacing-medium);display:none}@media only screen and (min-width:768px){.SidebarNavigation_tip__g4nzj{display:block}}.SidebarNavigation_tip__g4nzj>span{font-style:italic;color:var(--color-text-default);opacity:var(--opacity-50);-webkit-margin-end:var(--spacing-xsmall);margin-inline-end:var(--spacing-xsmall)}.SidebarNavigation_revelationOrderHeader___cG5Q{display:flex;flex-direction:row-reverse;-webkit-margin-after:var(--spacing-micro);margin-block-end:var(--spacing-micro)}.QuranReader_infiniteScroll__IAfrZ{width:95%;-webkit-margin-before:0;margin-block-start:0;-webkit-margin-after:0;margin-block-end:0;-webkit-margin-start:auto;margin-inline-start:auto;-webkit-margin-end:auto;margin-inline-end:auto}@media only screen and (min-width:768px){.QuranReader_infiniteScroll__IAfrZ{width:95%;max-width:112rem}}.QuranReader_readingView__gmING{min-height:100vh}@media only screen and (max-width:768px){.QuranReader_readingView__gmING{width:85%}}.QuranReader_loading__Wo_w6{text-align:center;max-width:80%;-webkit-margin-before:var(--spacing-medium);margin-block-start:var(--spacing-medium);-webkit-margin-after:var(--spacing-medium);margin-block-end:var(--spacing-medium);-webkit-margin-start:auto;margin-inline-start:auto;-webkit-margin-end:auto;margin-inline-end:auto}.QuranReader_container__8c0FU{-webkit-padding-before:3rem;padding-block-start:3rem;-webkit-padding-start:0;padding-inline-start:0;-webkit-padding-end:0;padding-inline-end:0;background-color:var(--color-background-default);background-image:var(--color-background-lighten);-webkit-padding-after:calc(4*var(--spacing-mega));padding-block-end:calc(4*var(--spacing-mega))}@media only screen and (min-width:768px){.QuranReader_container__8c0FU{transition:var(--transition-regular);-webkit-margin-end:0;margin-inline-end:0}.QuranReader_withVisibleSideBar__STTiz{-webkit-margin-end:26rem;margin-inline-end:26rem}.QuranReader_withSidebarNavigationOpenOrAuto__s2YDZ{-webkit-margin-start:calc(10*var(--spacing-mega));margin-inline-start:calc(10*var(--spacing-mega))}}.QuranReader_playButton__dVd11,._error_container__vJFnH{display:flex;justify-content:center}._error_container__vJFnH{flex-direction:column;align-items:center;height:100vh;width:100vw;-webkit-padding-before:0;padding-block-start:0;-webkit-padding-after:0;padding-block-end:0;-webkit-padding-start:var(--spacing-small);padding-inline-start:var(--spacing-small);-webkit-padding-end:var(--spacing-small);padding-inline-end:var(--spacing-small);box-sizing:border-box}._error_title__oLWAK{font-size:var(--font-size-jumbo);-webkit-margin-after:var(--spacing-medium);margin-block-end:var(--spacing-medium);text-align:center;line-height:normal}._error_goBack__U4WNd{display:flex;justify-content:center;-webkit-margin-before:var(--spacing-medium);margin-block-start:var(--spacing-medium)}._error_reportBug__tsKmR{-webkit-margin-before:var(--spacing-mega);margin-block-start:var(--spacing-mega)}
+.ReadingPreference_container__bK6Hm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.ReadingPreference_spinner__DAbUN {
+    -webkit-margin-end: var(--spacing-xsmall);
+    margin-inline-end:var(--spacing-xsmall)}
+
+.ReadingPreference_preferenceTextContainer___J7Dx {
+    -webkit-padding-start: var(--spacing-xsmall);
+    padding-inline-start:var(--spacing-xsmall)}
+
+.ReadingPreference_iconContainer__Jk5Rm>svg {
+    width: 15px;
+    display: block;
+    margin: auto
+}
+
+@media only screen and (max-width: 768px) {
+    .ReadingPreference_iconContainer__Jk5Rm>svg {
+        -webkit-margin-end:0;
+        margin-inline-end:0}
+}
+
+.ReadingPreferenceSwitcher_container__0Dzn6 {
+    max-width: calc(20*var(--spacing-large));
+    -webkit-margin-start: auto;
+    margin-inline-start:auto;-webkit-margin-end: auto;
+    margin-inline-end:auto;-webkit-padding-before: 0;
+    padding-block-start:0;-webkit-padding-after: 0;
+    padding-block-end:0;-webkit-padding-start: var(--spacing-small);
+    padding-inline-start:var(--spacing-small);-webkit-padding-end: var(--spacing-small);
+    padding-inline-end:var(--spacing-small)}
+
+.ReadingPreferenceSwitcher_surahHeaderContainer__L6XJx {
+    -webkit-margin-before: var(--spacing-small);
+    margin-block-start:var(--spacing-small);-webkit-margin-after: var(--spacing-xxsmall);
+    margin-block-end:var(--spacing-xxsmall)}
+
+.ReadingPreferenceSwitcher_contextMenuContainer__RALtU {
+    max-width: calc(10*var(--spacing-large))
+}
+
+.ContextMenu_container__M7_N3 {
+    background: var(--color-background-default);
+    background: var(--color-background-elevated);
+    box-shadow: var(--shadow-small);
+    color: var(--color-text-default);
+    text-align: center;
+    position: fixed;
+    z-index: var(--z-index-sticky);
+    transition: transform var(--transition-regular);
+    width: 100%;
+    inset-block-start: -1px;
+    min-height: var(--spacing-medium);
+    will-change: transform
+}
+
+.ContextMenu_container__M7_N3:after {
+    display: block;
+    content: "";
+    width: var(--progress);
+    transition: var(--transition-fast);
+    transition-timing-function: linear;
+    height: var(--spacing-micro);
+    background: var(--color-success-deep);
+    position: absolute;
+    inset-block-end: calc(-1*var(--spacing-micro))
+}
+
+.ContextMenu_hide__l1kVd {
+    display: none;
+    height: 0;
+    visibility: hidden
+}
+
+.ContextMenu_visibleContainer__KnWDa {
+    transform: translate3d(0,var(--navbar-container-height),0)
+}
+
+.ContextMenu_withVisibleBanner__0U0w_ {
+    transform: translate3d(0,var(--navbar-container-height) 0)
+}
+
+.ContextMenu_expandedContainer__W_YZP {
+    min-height: var(--spacing-mega)
+}
+
+@media only screen and (min-width: 768px) {
+    .ContextMenu_withVisibleSideBar__8iHQu {
+        -webkit-margin-end:26rem;
+        margin-inline-end:26rem;width: calc(100% - 26rem)
+    }
+}
+
+.ContextMenu_chapter__VKK2w {
+    font-size: var(--font-size-large);
+    margin-inline:var(--spacing-large)}
+
+.ContextMenu_bold__jqCU4 {
+    font-weight: var(--font-weight-bold)
+}
+
+.ContextMenu_sectionsContainer__x91pr {
+    width: 100%;
+    -webkit-padding-before: var(--spacing-micro);
+    padding-block-start:var(--spacing-micro);-webkit-padding-after: var(--spacing-micro);
+    padding-block-end:var(--spacing-micro);display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-inline:calc(1.3*var(--spacing-large))}
+
+@media only screen and (min-width: 768px) {
+    .ContextMenu_sectionsContainer__x91pr {
+        padding-inline:calc(1.2*var(--spacing-mega))
+    }
+}
+
+.ContextMenu_halfSection__vu5Iq {
+    width: 50%
+}
+
+.ContextMenu_section__hi_wD {
+    width: 33.3333333333%
+}
+
+@media only screen and (max-width: 768px) {
+    .ContextMenu_section__hi_wD {
+        width:50%
+    }
+}
+
+.ContextMenu_alignStart__D4EZD {
+    text-align: start
+}
+
+.ContextMenu_alignEnd__4YQyB {
+    text-align: end
+}
+
+.ContextMenu_row__3Hf3R {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%
+}
+
+.ContextMenu_primaryInfo__QL1fr {
+    font-weight: var(--font-weight-semibold)
+}
+
+.ContextMenu_secondaryInfo__FEnWx {
+    font-weight: lighter
+}
+
+.ContextMenu_surahName__9ovH0 {
+    display: none;
+    align-items: center;
+    cursor: pointer
+}
+
+.ContextMenu_chevronIconContainer__Bfc57 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-margin-start: var(--spacing-xxsmall);
+    margin-inline-start:var(--spacing-xxsmall);box-sizing: border-box
+}
+
+.ContextMenu_rotate180__ar3NZ {
+    transition: var(--transition-fast);
+    transform: rotate(180deg)
+}
+
+.ContextMenu_rotateAuto__xUm9n {
+    transition: var(--transition-fast);
+    transform: rotate(0)
+}
+
+@media only screen and (min-width: 768px) {
+    .ContextMenu_rotateAuto__xUm9n {
+        transition:var(--transition-fast);
+        transform: rotate(180deg)
+    }
+}
+
+.ContextMenu_disabledOnMobile__Pjaj9 {
+    pointer-events: none
+}
+
+@media only screen and (min-width: 768px) {
+    .ContextMenu_disabledOnMobile__Pjaj9 {
+        pointer-events:inherit
+    }
+}
+
+.ObserverWindow_container__yPD6c {
+    position: fixed;
+    inset-block: 131.6px 68vh;
+    z-index: var(--z-index-sticky);
+    width: 100%;
+    border: 1px solid var(--color-background-inverse)
+}
+
+.ObserverWindow_readingMode__fiRzr {
+    inset-block: 115.6px 70vh
+}
+
+.Notes_container__P4U6p {
+    height: 100%;
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    background-color: #2e75ff;
+    overflow-x: hidden;
+    -webkit-padding-before: var(--navbar-container-height);
+    padding-block-start:var(--navbar-container-height);z-index: var(--z-index-default);
+    transition: var(--transition-regular);
+    width: 0
+}
+
+.Notes_visibleContainer__8hC3J {
+    width: calc(100% - 2*var(--spacing-mega))
+}
+
+@media only screen and (min-width: 768px) {
+    .Notes_visibleContainer__8hC3J {
+        width:26rem
+    }
+}
+
+.QueryParamMessage_container__qZWgn {
+    position: relative;
+    padding: var(--spacing-medium);
+    margin-inline:var(--spacing-xxsmall);background: var(--color-success-faded);
+    border-radius: var(--border-radius-default);
+    border: 1px solid var(--color-success-faint);
+    text-align: start
+}
+
+[dir=rtl] .QueryParamMessage_container__qZWgn {
+    direction: rtl
+}
+
+.QueryParamMessage_link__apDAP {
+    cursor: pointer;
+    color: var(--color-text-link)
+}
+
+.QueryParamMessage_link__apDAP:hover {
+    text-decoration: underline
+}
+
+.VerseLink_verseLink__m_uNh {
+     : var(-- -50);
+    text-align: center
+}
+
+.ChapterIconContainer_iconContainer__5umYV span {
+    line-height: normal;
+    font-family: surahnames;
+    font-size: var(--font-size-large)
+}
+
+.ChapterIconContainer_iconContainerSmall__gvmyy span {
+    font-size: var(--font-size-xsmall)
+}
+
+.ChapterIconContainer_iconContainerLarge__z49r_ span {
+    font-size: var(--font-size-jumbo)
+}
+
+.ChapterIconContainer_iconContainerMega__rKWtt span {
+    font-size: calc(1.5*var(--font-size-jumbo))
+}
+
+.PlayButton_container__CTTxf {
+    display: flex;
+    justify-content: center
+}
+
+.ChapterHeader_container__UANyL {
+    display: none;
+    justify-content: space-between;
+    -webkit-margin-before: var(--spacing-xxsmall);
+    margin-block-start:var(--spacing-xxsmall);-webkit-margin-after: var(--spacing-xxsmall);
+    margin-block-end:var(--spacing-xxsmall);-webkit-margin-start: 0;
+    margin-inline-start:0;-webkit-margin-end: 0;
+    margin-inline-end:0;-webkit-padding-before: var(--spacing-xxsmall);
+    padding-block-start:var(--spacing-xxsmall);-webkit-padding-after: var(--spacing-xxsmall);
+    padding-block-end:var(--spacing-xxsmall);-webkit-padding-start: 0;
+    padding-inline-start:0;-webkit-padding-end: 0;
+    padding-inline-end:0;position: relative;
+    direction: ltr
+}
+
+.ChapterHeader_left__9GlxX,.ChapterHeader_right__IcBU9 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between
+}
+
+.ChapterHeader_chapterId__Z_Pey {
+    text-align: end;
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-faded);
+    z-index: var(--z-index-default)
+}
+
+.ChapterHeader_bismillahContainer__EXMlw {
+    display: flex;
+    justify-content: center;
+    -webkit-margin-before: var(--spacing-xxsmall);
+    margin-block-start:var(--spacing-xxsmall);-webkit-margin-after: calc(1.5*var(--spacing-mega));
+    margin-block-end:calc(1.5*var(--spacing-mega))}
+
+.ChapterHeader_translatedName__2sqjR {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-faded);
+    font-size: var(--font-size-xsmall)
+}
+
+.ChapterHeader_arabicSurahNameContainer__xn14U,.ChapterHeader_translatedName__2sqjR {
+    -webkit-margin-after: var(--spacing-xxsmall);
+    margin-block-end:var(--spacing-xxsmall);z-index: var(--z-index-default)
+}
+
+.ChapterHeader_arabicSurahNameContainer__xn14U {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-padding-before: var(--spacing-xsmall);
+    padding-block-start:var(--spacing-xsmall)}
+
+.ChapterHeader_transliteratedName__V9dup {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large);
+    -webkit-margin-after: var(--spacing-xxsmall);
+    margin-block-end:var(--spacing-xxsmall);z-index: var(--z-index-default)
+}
+
+.ChapterHeader_actionContainer__tbdf_ {
+    position: relative;
+    z-index: var(--z-index-default)
+}
+
+.ChapterHeader_translation__ERRFK {
+    max-width: calc(5*var(--spacing-mega))
+}
+
+@media only screen and (min-width: 375px) {
+    .ChapterHeader_translation__ERRFK {
+        max-width:calc(7*var(--spacing-mega))
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ChapterHeader_translation__ERRFK {
+        max-width:calc(11*var(--spacing-mega))
+    }
+}
+
+.ChapterHeader_translationBy__DDZAE {
+    color: var(--color-text-faded)
+}
+
+.ChapterHeader_changeTranslation__UlDJ5 {
+    color: var(--color-success-medium);
+    cursor: pointer
+}
+
+.ChapterHeader_changeTranslation__UlDJ5:hover {
+    text-decoration: underline
+}
+
+.ChapterHeader_header__kguEh {
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-margin-before: var(--spacing-large);
+    margin-block-start:var(--spacing-large);min-height: calc(3.75*var(--spacing-medium))
+}
+
+.ChapterHeader_chapterIconContainer__CJN7h {
+    margin-right: .5em
+}
+
+.TranslationView_container__M0fhJ {
+    max-width: 100%;
+    -webkit-margin-start: auto;
+    margin-inline-start:auto;-webkit-margin-end: auto;
+    margin-inline-end:auto}
+
+@media only screen and (min-width: 768px) {
+    .TranslationView_container__M0fhJ {
+        max-width:80%
+    }
+}
+
+.TranslationView_wrapper__C8vfW {
+    min-height: 100vh
+}
+
+.SidebarSelectionSkeleton_skeletonContainer__Pl7tL {
+    display: flex;
+    flex-direction: column
+}
+
+.SidebarSelectionSkeleton_row__AF4Qi {
+    width: auto;
+    height: calc(2*var(--spacing-large));
+    -webkit-margin-after: var(--spacing-large);
+    margin-block-end:var(--spacing-large)}
+
+.RevelationOrderNavigationNotice_sideDrawerViewContainer__R0aka {
+    -webkit-margin-after: var(--spacing-medium);
+    margin-block-end:var(--spacing-medium);padding: var(--spacing-small);
+    border: 1px solid var(--color-borders-hairline);
+    border-radius: var(--border-radius-rounded)
+}
+
+.RevelationOrderNavigationNotice_endOfScrollingViewContainer__moJQq {
+    text-align: center;
+    max-width: 100%;
+    margin: var(--spacing-medium) auto
+}
+
+@media only screen and (min-width: 768px) {
+    .RevelationOrderNavigationNotice_endOfScrollingViewContainer__moJQq {
+        max-width:80%
+    }
+}
+
+.RevelationOrderNavigationNotice_link__NY714 {
+    color: var(--color-text-link);
+    text-decoration: underline
+}
+
+.RevelationOrderNavigationNotice_link__NY714:hover {
+    cursor: pointer
+}
+
+.KeyboardInput_container__Zwe4F {
+    direction: ltr;
+    color: var(--color-text-default);
+    border: 1px solid var(--color-borders-hairline);
+    display: inline-block;
+    text-align: center;
+    min-width: calc(.5*var(--spacing-medium));
+    border-radius: var(--border-radius-default);
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 8px
+}
+
+.KeyboardInput_container__Zwe4F>span+span {
+    -webkit-margin-start: 8px;
+    margin-inline-start:8px}
+
+@media only screen and (max-width: 768px) {
+    .KeyboardInput_container__Zwe4F {
+        display:none
+    }
+}
+
+.KeyboardInput_invertedColors__2s3F3 {
+    color: var(--color-text-inverse)
+}
+
+.SidebarNavigation_container__IooCv {
+    --sidebar-size: calc(100% - (2 * var(--spacing-mega)));
+    height: 100vh;
+    max-height: 100vh;
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    -webkit-padding-before: calc(1.5*var(--spacing-mega));
+    padding-block-start:calc(1.5*var(--spacing-mega));background-color: var(--color-background-elevated);
+    overflow-x: hidden;
+    z-index: var(--z-index-default);
+    box-sizing: border-box;
+    -webkit-border-end: 1px solid var(--color-borders-hairline);
+    border-inline-end:1px solid var(--color-borders-hairline);width: var(--sidebar-size);
+    padding-inline:var(--spacing-large);transition: transform var(--transition-regular);
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    transform: translateX(-100%)
+}
+
+@media only screen and (min-width: 768px) {
+    .SidebarNavigation_container__IooCv {
+        --sidebar-size:calc(10 * var(--spacing-mega))
+    }
+}
+
+[dir=rtl] .SidebarNavigation_container__IooCv {
+    transform: translateX(100%)
+}
+
+.SidebarNavigation_visibleContainer__Y6E1c,[dir=rtl] .SidebarNavigation_visibleContainer__Y6E1c {
+    transform: translateX(0)
+}
+
+@media only screen and (min-width: 768px) {
+    .SidebarNavigation_containerAuto__WRE2m,[dir=rtl] .SidebarNavigation_containerAuto__WRE2m {
+        transform:translateX(0)
+    }
+}
+
+.SidebarNavigation_header__fqOtn {
+    display: flex;
+    align-items: center
+}
+
+.SidebarNavigation_switchContainer__DU_JH {
+    flex: 1 1;
+    -webkit-margin-end: var(--spacing-xxsmall);
+    margin-inline-end:var(--spacing-xxsmall)}
+
+.SidebarNavigation_contentContainer__FeDCs {
+    -webkit-margin-before: var(--spacing-medium);
+    margin-block-start:var(--spacing-medium);flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    -webkit-padding-after: var(--spacing-medium);
+    padding-block-end:var(--spacing-medium)}
+
+. SidebarNavigation_container__IooCv SidebarNavigation_visibleContainer__Y6E1c SidebarNavigation_spaceOnTop__VHaMe {
+    visibility: hidden;
+     : 0;
+    position: absolute;
+    bottom: 100000000;
+}
+
+SidebarNavigation_surahBodyContainer__bZs9R {
+    display: flex;
+    flex: 1 1
+}
+
+.SidebarNavigation_surahBodyContainer__bZs9R>.SidebarNavigation_verseListContainer__tE5ut {
+    -webkit-margin-start: var(--spacing-xsmall);
+    margin-inline-start:var(--spacing-xsmall)}
+
+.SidebarNavigation_scrollableSectionContainer__DEA47 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    position: relative
+}
+
+.SidebarNavigation_listContainer__Z4xaB {
+    flex: 1 1;
+    position: relative
+}
+
+.SidebarNavigation_list__5GJEm {
+    position: absolute;
+    inset: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-padding-after: calc(2*var(--spacing-mega));
+    padding-block-end:calc(2*var(--spacing-mega))}
+
+.SidebarNavigation_listItem__geBUW {
+    padding: var(--spacing-xsmall);
+    border-radius: var(--border-radius-rounded)
+}
+
+[dir=rtl] .SidebarNavigation_listItem__geBUW {
+    direction: rtl
+}
+
+.SidebarNavigation_listItem__geBUW:hover,.SidebarNavigation_selectedItem__swGQH {
+    background-color: var(--color-background-alternative-faded)
+}
+
+.SidebarNavigation_selectedItem__swGQH {
+    font-weight: var(--font-weight-bold)
+}
+
+.SidebarNavigation_surahListContainer__IYouq {
+    flex: 2 1;
+    display: flex;
+    flex-direction: column
+}
+
+.SidebarNavigation_verseListContainer__tE5ut {
+    -webkit-padding-start: var(--spacing-xsmall);
+    padding-inline-start:var(--spacing-xsmall);-webkit-border-start: 1px solid var(--color-borders-hairline);
+    border-inline-start:1px solid var(--color-borders-hairline);flex: 1 1;
+    display: flex;
+    flex-direction: column
+}
+
+.SidebarNavigation_searchInput__vhw5Z {
+    border: none;
+    box-sizing: border-box;
+    padding: var(--spacing-xsmall);
+    border-radius: var(--border-radius-rounded);
+    -webkit-margin-after: var(--spacing-medium);
+    margin-block-end:var(--spacing-medium);width: 100%;
+    background-color: var(--color-background-alternative-faded);
+    color: var(--color-text-default)
+}
+
+.SidebarNavigation_searchInput__vhw5Z::-moz-placeholder {
+    color: var(--color-text-default);
+     : var(-- -50)
+}
+
+.SidebarNavigation_searchInput__vhw5Z:-ms-input-placeholder {
+    color: var(--color-text-default);
+     : var(-- -50)
+}
+
+.SidebarNavigation_searchInput__vhw5Z::placeholder {
+    color: var(--color-text-default);
+     : var(-- -50)
+}
+
+.SidebarNavigation_spaceOnTop__VHaMe {
+    -webkit-padding-before: calc(3.5*var(--spacing-mega));
+    padding-block-start:calc(3.5*var(--spacing-mega));
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+
+.SidebarNavigation_chapterNumber__39NUY {
+    display: inline-block;
+    width: calc(2*var(--spacing-medium))
+}
+
+.SidebarNavigation_tip__g4nzj {
+    margin-block:var(--spacing-medium);display: none
+}
+
+@media only screen and (min-width: 768px) {
+    .SidebarNavigation_tip__g4nzj {
+        display:block
+    }
+}
+
+.SidebarNavigation_tip__g4nzj>span {
+    font-style: italic;
+    color: var(--color-text-default);
+     : var(-- -50);
+    -webkit-margin-end: var(--spacing-xsmall);
+    margin-inline-end:var(--spacing-xsmall)}
+
+.SidebarNavigation_revelationOrderHeader___cG5Q {
+    display: flex;
+    flex-direction: row-reverse;
+    -webkit-margin-after: var(--spacing-micro);
+    margin-block-end:var(--spacing-micro)}
+
+.QuranReader_infiniteScroll__IAfrZ {
+    width: 95%;
+    -webkit-margin-before: 0;
+    margin-block-start:0;-webkit-margin-after: 0;
+    margin-block-end:0;-webkit-margin-start: auto;
+    margin-inline-start:auto;-webkit-margin-end: auto;
+    margin-inline-end:auto}
+
+@media only screen and (min-width: 768px) {
+    .QuranReader_infiniteScroll__IAfrZ {
+        width:95%;
+        max-width: 112rem
+    }
+}
+
+.QuranReader_readingView__gmING {
+    min-height: 100vh
+}
+
+@media only screen and (max-width: 768px) {
+    .QuranReader_readingView__gmING {
+        width:85%
+    }
+}
+
+.QuranReader_loading__Wo_w6 {
+    text-align: center;
+    max-width: 80%;
+    -webkit-margin-before: var(--spacing-medium);
+    margin-block-start:var(--spacing-medium);-webkit-margin-after: var(--spacing-medium);
+    margin-block-end:var(--spacing-medium);-webkit-margin-start: auto;
+    margin-inline-start:auto;-webkit-margin-end: auto;
+    margin-inline-end:auto}
+
+.QuranReader_container__8c0FU {
+    -webkit-padding-before: 3rem;
+    padding-block-start:3rem;-webkit-padding-start: 0;
+    padding-inline-start:0;-webkit-padding-end: 0;
+    padding-inline-end:0;background-color: var(--color-background-default);
+    background-image: var(--color-background-lighten);
+    -webkit-padding-after: calc(4*var(--spacing-mega));
+    padding-block-end:calc(4*var(--spacing-mega))}
+
+@media only screen and (min-width: 768px) {
+    .QuranReader_container__8c0FU {
+        transition:var(--transition-regular);
+        -webkit-margin-end: 0;
+        margin-inline-end:0}
+
+    .QuranReader_withVisibleSideBar__STTiz {
+        -webkit-margin-end: 26rem;
+        margin-inline-end:26rem}
+
+    .QuranReader_withSidebarNavigationOpenOrAuto__s2YDZ {
+        -webkit-margin-start: calc(10*var(--spacing-mega));
+        margin-inline-start:calc(10*var(--spacing-mega))}
+}
+
+.QuranReader_playButton__dVd11,._error_container__vJFnH {
+    display: flex;
+    justify-content: center
+}
+
+._error_container__vJFnH {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    -webkit-padding-before: 0;
+    padding-block-start:0;-webkit-padding-after: 0;
+    padding-block-end:0;-webkit-padding-start: var(--spacing-small);
+    padding-inline-start:var(--spacing-small);-webkit-padding-end: var(--spacing-small);
+    padding-inline-end:var(--spacing-small);box-sizing: border-box
+}
+
+._error_title__oLWAK {
+    font-size: var(--font-size-jumbo);
+    -webkit-margin-after: var(--spacing-medium);
+    margin-block-end:var(--spacing-medium);text-align: center;
+    line-height: normal
+}
+
+._error_goBack__U4WNd {
+    display: flex;
+    justify-content: center;
+    -webkit-margin-before: var(--spacing-medium);
+    margin-block-start:var(--spacing-medium)}
+
+._error_reportBug__tsKmR {
+    -webkit-margin-before: var(--spacing-mega);
+    margin-block-start:var(--spacing-mega)}
