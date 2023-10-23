@@ -1,0 +1,1 @@
+document.title = "Sura An-Naba - Future Horizon";

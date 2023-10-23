@@ -1,0 +1,1 @@
+document.title = "Sura Ya'Sin - Future Horizon";

@@ -1,0 +1,1 @@
+document.title = "Sura An-Naml - Future Horizon";

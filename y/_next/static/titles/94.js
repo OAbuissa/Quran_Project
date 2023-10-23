@@ -1,0 +1,1 @@
+document.title = "Sura Ash-Sharh - Future Horizon";

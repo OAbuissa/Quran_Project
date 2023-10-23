@@ -1,0 +1,1 @@
+document.title = "Sura At-Taghabun - Future Horizon";

@@ -1,0 +1,1 @@
+document.title = "Sura Az-Zaizalah - Future Horizon";

@@ -1,0 +1,1 @@
+document.title = "Sura Ghafir - Future Horizon";

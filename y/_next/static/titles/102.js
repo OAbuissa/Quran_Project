@@ -1,0 +1,1 @@
+document.title = "Sura At-Takathur - Future Horizon";

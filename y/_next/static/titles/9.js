@@ -1,0 +1,1 @@
+document.title = "Sura At-Tawbah - Future Horizon";

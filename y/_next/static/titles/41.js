@@ -1,0 +1,1 @@
+document.title = "Sura Fussilat - Future Horizon";

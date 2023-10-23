@@ -4,4 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
     navbar.addEventListener('click', function() {
         window.location.href = 'index.html';
     });
+;
+
+
+var linkElement = document.createElement("link");
+linkElement.rel = "icon";
+linkElement.href = "images/icon.png";
+linkElement.type = "image/x-icon";
+document.head.appendChild(linkElement);
+
+
 });

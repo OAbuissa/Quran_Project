@@ -1,0 +1,1 @@
+document.title = "Sura Ar-Rahman - Future Horizon";

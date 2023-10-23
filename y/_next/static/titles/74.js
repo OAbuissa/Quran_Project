@@ -1,0 +1,1 @@
+document.title = "Sura Al-Muddaththir - Future Horizon";

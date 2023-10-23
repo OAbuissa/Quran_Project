@@ -1,0 +1,1 @@
+document.title = "Sura Al-Ma'un - Future Horizon";

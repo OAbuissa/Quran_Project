@@ -1,0 +1,1 @@
+document.title = "Sura An-Nazi'at - Future Horizon";

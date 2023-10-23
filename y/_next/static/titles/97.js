@@ -1,0 +1,1 @@
+document.title = "Sura Al-Qadr - Future Horizon";

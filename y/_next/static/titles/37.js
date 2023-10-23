@@ -1,0 +1,1 @@
+document.title = "Sura As-Saffat - Future Horizon";

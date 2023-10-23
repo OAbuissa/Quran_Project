@@ -1,0 +1,1 @@
+document.title = "Sura Al-Qari'ah - Future Horizon";
