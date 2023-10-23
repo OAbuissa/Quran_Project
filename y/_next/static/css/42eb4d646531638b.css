@@ -1,3 +1,11 @@
+body[data-theme="auto"] {
+    data-theme: light !important;
+}
+
+audio {
+  muted: true;
+}
+
 .Spinner_large___jIQL {
     height: calc(1.5*var(--spacing-medium));
     width: calc(1.5*var(--spacing-medium))
@@ -1423,6 +1431,7 @@
 }
 
 .Button_normal__gNVb9 {
+    display: none;
     font-size: var(--font-size-normal);
     --button-size: calc(2.5 * var(--spacing-medium))
 }
@@ -1465,7 +1474,6 @@
     background-color: transparent;
     border: none;
     color: var(--themed-bg);
-    display: none;
 }
 
 .Button_ghost__pS9ZU:hover {
@@ -3088,16 +3096,27 @@
     display: flex;
     background-image: url(../../../images/logo-white.png);
     cursor: pointer;
-    width: 241px;
-    height: 68px;
+    position: relative;
+    top: 13px;
+    left: 16px;
+    width: 200px;
+    height: 56px;
     background-size: cover;
     flex-direction: row;
     justify-content: space-between;
-    /* height:100%; */
-    background-color: var(--color-background-elevated)
+    /* height: 100%; */
+    background-color: var(--color-background-elevated);
 }
 
-
+@media(max-width: 767px) {
+    .NavbarBody_itemsContainer__Jvm3k {
+        position: relative;
+        top: 10px;
+        left: 8px;
+        width: 170px;
+        height: 46px;
+    }
+}
 
 .NavbarBody_itemsContainer__Jvm3k::before {
     content: "";
@@ -3128,7 +3147,7 @@
 }
 
 .NavbarBody_rightCTA__uEC10 {
-    display: flex;
+    display: none;
     -webkit-margin-end: var(--spacing-medium);
     margin-inline-end:var(--spacing-medium);align-items: center
 }
@@ -3580,7 +3599,7 @@ article,aside,details,figcaption,figure,header,hgroup,menu,nav,section {
 }
 
 footer {
-    display: block;
+    display: none;
 }
 
 ol,ul {
@@ -4240,6 +4259,8 @@ select option {
     }
 }
 
+/* Loader Page */
+
 .loader-spinner {
     position: fixed;
     top: 0;
@@ -4249,7 +4270,7 @@ select option {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #fdf8f0;
     z-index: 1000000;
     transition: opacity 0.75s, visibility 0.75s;
 }
@@ -4261,10 +4282,10 @@ select option {
 
 .loader-spinner::after {
     content: "";
-    width: 75px;
-    height: 75px;
-    border: 15px solid #e3d6d6;
-    border-top-color: rgb(44, 44, 221);
+    width: 50px;
+    height: 50px;
+    border: 10px solid #c4c1ba;
+    border-top-color: #10100f;
     border-radius:50%;
     animation: loading 0.75s ease infinite;
 }
@@ -4272,4 +4293,9 @@ select option {
 @keyframes loading {
     from { transform: rotate(0turn)}
     to { transform: rotate(1turn)}
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
 }

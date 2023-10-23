@@ -4214,6 +4214,7 @@ select option {
     }
 }
 
+
 .loader-spinner {
     position: fixed;
     top: 0;
@@ -4223,7 +4224,7 @@ select option {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #fdf8f0;
     z-index: 1000000;
     transition: opacity 0.75s, visibility 0.75s;
 }
@@ -4235,10 +4236,10 @@ select option {
 
 .loader-spinner::after {
     content: "";
-    width: 75px;
-    height: 75px;
-    border: 15px solid #e3d6d6;
-    border-top-color: rgb(44, 44, 221);
+    width: 50px;
+    height: 50px;
+    border: 10px solid #c4c1ba;
+    border-top-color: #10100f;
     border-radius:50%;
     animation: loading 0.75s ease infinite;
 }
@@ -4246,4 +4247,25 @@ select option {
 @keyframes loading {
     from { transform: rotate(0turn)}
     to { transform: rotate(1turn)}
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .searchInput {
+        width: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .QuickLinks_quickLinksContainer__azLk0e {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+body {
+    overflow-x: hidden;
 }

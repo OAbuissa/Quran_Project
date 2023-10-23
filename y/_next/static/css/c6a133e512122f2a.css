@@ -5,6 +5,9 @@
     width: 100%
 }
 
+audio {
+  muted: true;
+}
 .ReadingPreference_spinner__DAbUN {
     -webkit-margin-end: var(--spacing-xsmall);
     margin-inline-end:var(--spacing-xsmall)}
@@ -526,6 +529,7 @@
     margin-inline-end:var(--spacing-xxsmall)}
 
 .SidebarNavigation_contentContainer__FeDCs {
+        background-image: url(../../../images/welcome.png);
     -webkit-margin-before: var(--spacing-medium);
     margin-block-start:var(--spacing-medium);flex: 1 1;
     display: flex;
@@ -570,6 +574,7 @@ SidebarNavigation_surahBodyContainer__bZs9R {
     padding-block-end:calc(2*var(--spacing-mega))}
 
 .SidebarNavigation_listItem__geBUW {
+    display: none;
     padding: var(--spacing-xsmall);
     border-radius: var(--border-radius-rounded)
 }
@@ -601,6 +606,7 @@ SidebarNavigation_surahBodyContainer__bZs9R {
 }
 
 .SidebarNavigation_searchInput__vhw5Z {
+    display: none;
     border: none;
     box-sizing: border-box;
     padding: var(--spacing-xsmall);
@@ -645,7 +651,7 @@ SidebarNavigation_surahBodyContainer__bZs9R {
 
 @media only screen and (min-width: 768px) {
     .SidebarNavigation_tip__g4nzj {
-        display:block
+        display:none
     }
 }
 
