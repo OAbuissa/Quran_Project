@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Cairo:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
 
+.navcontainer {
+    margin-right: 65px;
+    flex-direction: row-reverse;
+}
+.navcontainer > a {
+    color: black !important;
+    font-size: 18px;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+.navcontainer > .active {
+    color: #2ca4ab !important;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Cairo', sans-serif !important;
+    font-family: 'Open Sans', sans-serif ;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 500 !important;
+}
 
 .Spinner_large___jIQL {
     height: calc(1.5*var(--spacing-medium));
@@ -3091,7 +3114,10 @@
     flex-direction: row;
     justify-content: space-between;
     height:100%;
-    background-color: var(--color-background-elevated)
+    background-color: white;
+    box-shadow: -1px 7px 13px -8px rgba(0,0,0,0.58);
+    -webkit-box-shadow: -1px 7px 13px -8px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 7px 13px -8px rgba(0,0,0,0.58);
 }
 
 .NavbarBody_centerVertically__zzdjH {
@@ -3142,7 +3168,7 @@
     height: var(--navbar-height);
     width: 100%;
     transition: var(--transition-regular);
-    background: var(--color-background-elevated);
+    background-color: white;
     z-index: var(--z-index-header);
     will-change: transform
 }
@@ -4152,11 +4178,14 @@ textarea {
 
 body {
     min-height: 100vh;
-    background: var(--color-background-default);
+    background: white;
     color: var(--color-text-default);
     padding: 0!important;
     overscroll-behavior-y: none;
-    font-family: ProximaVara,Helvetica Neue,Helvetica,Arial;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -4167,22 +4196,6 @@ body ::selection {
 
 body ::-moz-selection {
     background: var(--color-highlight)
-}
-
-body .ur,body .urdu,body :lang(ur),body :lang(urdu) {
-    font-family: MehrNastaliq,Mehr Nastaliq Web,Helvetica Neue,Helvetica,Arial,serif
-}
-
-body :lang(ar),body :lang(arabic) .ar {
-    font-family: Noto Nastaliq Arabic,NotoNastaliq,ProximaVara,Helvetica Neue,Helvetica,Arial
-}
-
-body :lang(bengali),body :lang(bn) {
-    font-family: notoserifbengali,ProximaVara,Helvetica Neue,Helvetica,Arial
-}
-
-body :lang(ku) {
-    font-family: DroidArabicNaskh,Noto Nastaliq Arabic,NotoNastaliq,ProximaVara,Helvetica,Arial
 }
 
 button,input,optgroup,select,textarea {

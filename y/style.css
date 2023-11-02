@@ -1,0 +1,702 @@
+/* The Font @import */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Cairo:wght@300;400;600&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    /* Set The Border Sizing to border box */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: box-border;
+    /* Reset the margin & padding */
+    padding:0;
+    margin:0;
+}
+/* Variables */
+:root {
+    --main-color: #103f61;
+    --main-color-alternate: #2b6893;
+    --main-color-alt: #48b3dd;
+    --text-color: #ffffff;
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #e7a22a;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+/* Width of the Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+/* The Track & thumb color + hover */
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0889bd;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--main-color-alt);
+}
+/* Start Animation Section */
+/* For the Spinner Span around the image */
+@keyframes aboutSpinner {
+        100% {
+            transform: translate(-50%,-50%) rotate(360deg);
+        }
+    }
+/* For the tying Effect */
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+/* For the Slide Effect */
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+/* End Animation Section */
+/* For All the Html */
+html {
+    scroll-behavior: smooth;
+}
+/* For All the Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    /* All the text in the site will be this color instead that one you edit */
+    color: var(--text-color);
+    /* Setting the minimum view port to 100 */
+    min-height: 100vh;
+}
+/* Reset the ul */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+}
+/* Disabling the curet in the not input field */
+.disable_curet {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+}
+/* The Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    padding: 10px 5%;
+    -webkit-box-shadow: -8px 15px 136px -137px rgba(255,255,255,0.45);
+    -moz-box-shadow: -8px 15px 136px -137px rgba(255,255,255,0.45);
+    box-shadow: -8px 15px 136px -137px rgba(255,255,255,0.45);
+}
+/* Let the li beside each other horizontal */
+.header nav ul {
+    display: flex;
+}
+/* The Logo in the header [SLT] */
+.header .logo {
+    font-size: 30px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+.header .logo img {
+    width: 40px;
+}
+/* The Links in the header */
+.navbar ul li a {
+    font-size: 18px;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+/* When Hovering in the link or the active page that you are in */
+.navbar ul li a:hover,
+.navbar ul li .active {
+    color: var(--main-color-alt);
+}
+/* To let the main content move down */
+.home {
+    display: flex;
+    align-items: center;
+    height: 91vh;
+    padding: 10px 5%;
+}
+/* Let the home content section take the half of the screen */
+.home .home-content {
+    max-width: 50%;
+}
+/* Styling the h1, h3, and the p in the Home Content */
+.home .home-content h1:first-child {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+/* Styling the Second h1 */
+.home .home-content h1:nth-child(2) {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: var(--orange-color);
+}
+/* The Wrapper [typing effect] */
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+/* The First Text [We Are] */
+.wrapper .first-text {
+    font-size: 53px;
+    font-weight: 700;
+    color: var(--main-color-alt);
+    margin: 0;
+}
+/* The Second Text in the wrapper with the stroke and the transparent color */
+.wrapper .sec-text {
+    height: 90px;
+    line-height: 90px;
+    font-weight: 700;
+    overflow: hidden;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--main-color-alt);
+    margin: 0;
+}
+/* The li inside the second text */
+.wrapper .sec-text li {
+    position: relative;
+    top: 0;
+    font-size: 60px;
+    padding: 0 20px;
+    /* The Slide Animation */
+    animation: slide 12s steps(4) infinite;
+}
+/* The Span inside the li */
+.sec-text li span {
+    position: relative;
+}
+/* Psedu element [before] for the span */
+.sec-text li span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 90px;
+    background-color: var(--main-color);
+    border-left: 2px solid var(--main-color-alt);
+    /* The Typing Animation */
+    animation: typing 1.5s steps(10) infinite alternate;
+}
+/* The Paragraph in the Home Content [Description for the team] */
+.home .home-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 30px;
+}
+/* Styling the Botton Box */
+.home .home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px  ;
+}
+/* Style the a inside the botton box */
+.home .home-content .btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: var(--main-color-alt);
+    border: 2px solid var(--main-color-alt);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--main-color);
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    -webkit-box-shadow: -8px 15px 136px -88px rgba(255,255,255,0.45);
+    -moz-box-shadow: -8px 15px 136px -88px rgba(255,255,255,0.45);
+    box-shadow: -8px 15px 136px -88px rgba(255,255,255,0.45);
+}
+.header .navbar .toggle-menu {
+    font-size: 25px;
+}
+/* Styling the Second Box */
+.home .home-content .btn-box a:nth-child(2) {
+    background-color: var(--main-color);
+    color: var(--main-color-alt);
+}
+
+/* Second Box when hover */
+.home .home-content .btn-box a:nth-child(2):hover {
+    color: var(--main-color);
+    background-color: var(--main-color-alt);
+}
+/* Styling the first box when hovering */
+.home .home-content .btn-box a:hover {
+    color: var(--main-color-alt);
+    background-color: var(--main-color);
+}
+@media (min-width: 1211px) {
+    .header .navbar .toggle-menu {
+        display: none;
+    }
+}
+@media (max-width: 1210px) {
+    .team-img img {
+        display: none;
+    }
+    .home .home-content {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .navbar ul{
+        display: none;
+    }
+    .home {
+        height: 100%;
+        padding-top: 5%;
+    }
+    .home .home-content .btn-box {
+        margin-bottom: 8%;
+    }
+    .home .home-content p {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .header .navbar .toggle-menu:hover + ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 70vh;
+        width: 100%;
+        background-color: rgb(0 0 0 / 50%);
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    .header .navbar ul li a {
+        padding: 15px !important; 
+        font-size: 35px;
+    }
+
+}
+@media (max-width: 1205px) {
+    .home .home-content > div {
+        text-align: center;
+    }
+    .home .home-content h1:first-child {
+        font-size: 85px;
+    }
+    .home .home-content h1:nth-child(2) {
+        font-size: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .home .wrapper {
+        display: none;
+    }
+    .home .home-content > div {
+        text-align: center;
+    }
+    .home .home-content h1:first-child {
+        font-size: 72px;
+    }
+    .home .home-content h1:nth-child(2) {
+        font-size: 52px;
+    }
+}
+@media (max-width: 644px) {
+    .home .home-content h1:first-child {
+        font-size: 40px;
+    }
+    .home .home-content h1:nth-child(2) {
+        font-size: 28px;
+    }
+    .home .home-content p {
+        font-size: 12px;
+        margin: 20px 0 40px;
+    }
+    .home .home-content .btn-box {
+        width: 316px;
+        height: 52px;
+        margin-bottom: 70px;
+    }
+}
+/* The Team Images */
+.about-img {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* The image it self */
+#image {
+    transition: opacity 1s ease-in-out;
+    border-radius: 50%;
+    width: 60%;
+    border: .2rem solid var(--main-color-alt);
+}
+/* The spinner around the image */
+.about-img .spin{
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0);
+    width: 68%;
+    height: 68%;
+    border-radius: 50%;
+    border-top: .2rem solid transparent;
+    border-bottom: .2rem solid transparent;
+    border-left: .2rem solid var(--main-color-alt);
+    border-right: .2rem solid var(--main-color-alt);
+    animation: aboutSpinner 8s linear infinite;
+}
+/* The Whole Team image Container*/
+.team-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    margin-top: 70px;
+    left: 130px;
+    overflow: hidden;
+}
+/* Styling the image it self */
+.team-img img {
+    width: 450px;
+    border-radius: 12px;
+    border: 3px solid var(--main-color-alt);
+}
+.mem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.mem-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+/* The Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 10px;
+}
+/* Styling Social Media Box*/
+.footer .home-sci {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 70px;
+    width: 170px;
+}
+/* Every icon inside the Social Media Box */
+.footer .home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--main-color-alt);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--main-color-alt);
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.3s;
+    -webkit-box-shadow: -8px 15px 136px -72px rgba(255,255,255,0.45);
+    -moz-box-shadow: -8px 15px 136px -72px rgba(255,255,255,0.45);
+    box-shadow: -8px 15px 136px -72px rgba(255,255,255,0.45);
+}
+/* The Icon When Hovering */
+.footer .home-sci a:hover {
+    background-color: var(--main-color-alt);
+    color: var(--main-color);
+}
+/* The Paragraph in the Footer */
+.footer .copyright {
+    margin-top: 60px;
+}
+/* The Span inside the paragraph [SLT | SIS] */
+.footer .copyright span {
+    font-weight: 500;
+    color: var(--main-color-alt);
+}
+/* End Home Page */
+
+
+
+/* Team Page */
+.team-page {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    height: 91vh;
+    padding: 10px 5%;
+}
+.team-page > h1 {
+    font-size: 62px;
+    font-weight: 900;
+    margin-top: 80px;
+    padding: 10px;
+    border-bottom: 3px solid var(--blue-color);
+    background-color: var(--blue-color);
+    transform: skew(-10deg);
+}
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+}
+.about,.skills {
+    padding: 40px;
+    min-height: 330px;
+}
+.about {
+    background-color: white;
+    color: black;
+    max-height: 330px;
+    overflow: hidden;
+    -webkit-box-shadow: -8px 15px 134px -105px rgba(255,255,255,0.45);
+    -moz-box-shadow: -8px 15px 134px -105px rgba(255,255,255,0.45);
+    box-shadow: -8px 15px 134px -105px rgba(255,255,255,0.45);
+}
+.about h3 {
+    margin-bottom: 25px;
+}
+.skills {
+    background-color: #1f54bf;
+    color: #f5f5f5;
+    max-height: 330px;
+    -webkit-box-shadow: -8px 15px 134px -105px rgba(255,255,255,0.45);
+    -moz-box-shadow: -8px 15px 134px -105px rgba(255,255,255,0.45);
+    box-shadow: -8px 15px 134px -105px rgba(255,255,255,0.45);
+}
+.skills h2 {
+    margin-bottom: 20px;
+}
+.skills .progress {
+    margin-bottom: 30px;
+    margin-top: 7px;
+}
+.skills h5 {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+.skills .progress-bar {
+    background-color: #0067ff;
+}
+.about-img .image {
+    transition: opacity 1s ease-in-out;
+    border-radius: 50%;
+    width: 60%;
+    border: .2rem solid var(--main-color-alt);
+    -webkit-box-shadow: -8px 15px 136px -75px rgba(255,255,255,0.45);
+    -moz-box-shadow: -8px 15px 136px -75px rgba(255,255,255,0.45);
+    box-shadow: -8px 15px 136px -75px rgba(255,255,255,0.45);
+}
+.about-img h1 {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about-img h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--orange-color);
+}
+/* Projects Page */
+
+.prj-page .container {
+    width: 75%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 5%;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .prj-page .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prj-page h4 { /* added this block */
+    color: black;
+    margin-bottom: 10px;
+  }
+  .prj-page .description {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+  .prj-page .choose {
+    color: black;
+    font-size: 18px;
+  }
+  .prj-page .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .prj-page .links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .prj-page .links ul li a{
+    appearance: none;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .prj-page .links ul li a:hover {
+    background-color: var(--main-color-alternate);
+  }
+  .prj-page  {
+    padding: 8% 5%;
+  }
+  /* Projects */
+  .courses-page {
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 2% 5%;
+}
+.courses-page .course {
+    overflow: hidden;
+}
+.courses-page .course .cover {
+    min-width: 100%;
+}
+.courses-page .course .info {
+    border-top: 1px solid #eee;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.courses-page .course .info .title {
+    text-decoration: none;
+}
+.courses-page .course h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 34px;
+    top: 4%;
+}
+/* About Team */
+/* Start Friends Page */
+.friends-page {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.friends-page .friend {
+    position: relative;
+    color: black;
+}
+.page .content {
+    padding: 4% 3%;
+}
+@media (max-width: 767px) {
+    .friends-page {
+        grid-template-columns:minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+}
+.friends-page .contact {
+    position: absolute;
+    left: 10px;
+    top: 10px
+}
+.friends-page .contact i {
+    background-color: #eee;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+.friends-page .friend .info div a {
+    text-decoration: none;
+}
+.friends-page .contact i:hover {
+    background: var(--blue-color);
+    color: white;
+}
+.friends-page .friend .icons {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; 
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.friends-page .friend .icons i {
+    margin-right: 5px;
+}
+.friends-page .friend .icons .vip {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    opacity: 0.2;
+}
+/* End Friends Page */

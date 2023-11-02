@@ -5,9 +5,6 @@
     width: 100%
 }
 
-audio {
-  muted: true;
-}
 .ReadingPreference_spinner__DAbUN {
     -webkit-margin-end: var(--spacing-xsmall);
     margin-inline-end:var(--spacing-xsmall)}
@@ -529,7 +526,7 @@ audio {
     margin-inline-end:var(--spacing-xxsmall)}
 
 .SidebarNavigation_contentContainer__FeDCs {
-        background-image: url(../../../images/welcome.png);
+    background-image: url(../../../images/welcome.png);
     -webkit-margin-before: var(--spacing-medium);
     margin-block-start:var(--spacing-medium);flex: 1 1;
     display: flex;
